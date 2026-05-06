@@ -1,0 +1,16 @@
+
+html, body {
+  padding-left: 6px;
+  padding-right: 6px;
+    height: 100%;
+  }
+  .card-first-color{
+    background-color: #070f1b;
+  }
+
+    .card-third-color{
+	background: #9fd3c7; 
+  }
+  .border-4 {
+    border: 5px solid #9fd3c7 !important;
+  }
