@@ -115,3 +115,15 @@ function showAlert(message) {
 
   setTimeout(() => div.remove(), 500);
 }
+
+const themeBtn = document.querySelector("#theme-btn");
+
+themeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("light-mode");
+  const icon = themeBtn.querySelector("i");
+  if (document.body.classList.contains("light-mode")) {
+    icon.className = "fa fa-moon-o";
+  } else {
+    icon.className = "fa fa-sun-o";
+  }
+});

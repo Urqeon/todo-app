@@ -1,16 +1,134 @@
-
 html, body {
-  padding-left: 6px;
-  padding-right: 6px;
-    height: 100%;
-  }
-  .card-first-color{
-    background-color: #070f1b;
-  }
+  height: 100%;
+  background-color: #0b0f17;
+  color: #e8edf5;
+}
+.form-control::placeholder {
+  color: #5a6a7e !important;
+}
+.panel-add {
+  width: 36%;
+  min-height: 100vh;
+  background-color: #0b0f17;
+  border-right: 1px solid #1e2535;
+}
 
-    .card-third-color{
-	background: #9fd3c7; 
-  }
-  .border-4 {
-    border: 5px solid #9fd3c7 !important;
-  }
+.panel-list {
+  background-color: #0f1520;
+  min-height: 100vh;
+}
+
+.panel-header {
+  border-bottom: 1px solid #1e2535;
+}
+
+.panel-header h1 {
+  font-size: 1.65rem;
+  color: #e8edf5;
+}
+
+.form-control {
+  background-color: #131929 !important;
+  border: 1px solid #1e2d42 !important;
+  color: #e8edf5 !important;
+}
+
+.form-control:focus {
+  border-color: #4fc3a1 !important;
+  box-shadow: none !important;
+}
+
+.btn-ekle {
+  background-color: #4fc3a1;
+  color: #0b0f17;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-ekle:hover {
+  background-color: #3dae8e;
+  color: #0b0f17;
+}
+
+.list-group-item {
+  background-color: #131929 !important;
+  border: 1px solid #1e2535 !important;
+  color: #c5d0df !important;
+}
+
+.delete-item {
+  color: #801212e3;
+  text-decoration: none;
+}
+
+.delete-item:hover {
+  color: #e05c5c;
+}
+
+.btn-clear {
+  border: 1px solid #2a3a50;
+  color: #4a5a70;
+  text-decoration: none;
+}
+
+.btn-clear:hover {
+  border-color: #e05c5c;
+  color: #e05c5c;
+}
+
+.btn-theme {
+  background-color: #0b0f17;
+  border-color: #000000;
+  color: #d6eb1d;
+}
+
+
+/* Light Mode */
+body.light-mode {
+  background-color: #dde3ed;
+  color: #1a1a2e;
+}
+
+body.light-mode .form-control::placeholder {
+  color: #6b7a90 !important;
+}
+
+body.light-mode .panel-add {
+  background-color: #c8d0e0;
+  border-color: #b0bace;
+}
+
+body.light-mode .panel-list {
+  background-color: #dde3ed;
+}
+
+body.light-mode .panel-header {
+  border-color: #b0bace;
+}
+
+body.light-mode .panel-header h1 {
+  color: #1a1a2e;
+}
+
+body.light-mode .form-control {
+  background-color: #edf0f7 !important;
+  border-color: #b0bace !important;
+  color: #1a1a2e !important;
+}
+
+body.light-mode .list-group-item {
+  background-color: #edf0f7 !important;
+  border-color: #b0bace !important;
+  color: #1a1a2e !important;
+}
+
+body.light-mode .btn-theme {
+  background-color: #c8d0e0;
+  border-color: #b0bace;
+  color: #1a1a2e;
+}
+
+body.light-mode .btn-clear {
+  border-color: #b0bace;
+  color: #4a5a70;
+}
