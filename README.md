@@ -1,3 +1,4 @@
+<img width="1919" height="1079" alt="dark" src="https://github.com/user-attachments/assets/337fffbb-c0ae-45b5-8a48-992e7ea6cec8" />
 # Todo Listesi
 
 Vanilla JavaScript ile geliştirilmiş, dark/light mod destekli minimalist bir todo uygulaması.
@@ -37,6 +38,13 @@ todo-app/
 └── scripts/
     └── script.js
 ```
+| Dark Mode |
+|-----------|
+| <img width="1919" height="1079" alt="dark" src="https://github.com/user-attachments/assets/337fffbb-c0ae-45b5-8a48-992e7ea6cec8" /> |
+
+| Lıgnt Mode |
+|-----------|
+| <img width="1919" height="1079" alt="light" src="https://github.com/user-attachments/assets/5e282f0f-74eb-431a-9495-8be8a862a113" /> |
 
 ## Lisans
 
